@@ -1,0 +1,95 @@
+.cardPhoto {
+  padding: 10px;
+  padding-top: 0;
+  transition: 0.3s;
+}
+
+.cardPhoto:hover {
+  transform: translate(0, -15px);
+}
+
+.pokeId {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 6px;
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.container {
+  padding: 0;
+}
+
+.content-center {
+  margin: 0;
+}
+
+.from-control {
+  margin: 0;
+  min-width: 280px;
+  border-radius: 0px 10px;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.from-control:focus {
+  outline: none;
+}
+
+.searchIcon {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  display: grid;
+  place-items: center;
+  border-left: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px 0px;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+}
+
+.searchbar input {
+  background-color: white;
+  border: 0;
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-right: none;
+  font-size: 18px;
+  padding: 15px;
+  height: 40px;
+  width: 300px;
+  border: none;
+}
+
+.card-title {
+  padding-top: 9px;
+  padding-bottom: 4px;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.pokedex-logo {
+  width: 300px;
+  margin-top: 20px;
+}
+
+.classLink {
+  text-decoration: none;
+}
+
+@media (max-width: 390px) {
+  .borderCard {
+    border-width: 4px !important;
+  }
+  .searchbar {
+    margin-left: 17px;
+  }
+}
